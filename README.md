@@ -22,7 +22,7 @@ ejemplos:
 `sed ‘s/hanks/selleck/g’ dump1.sql` = [comando][subcomando- sustitución][expresión original][nueva expresión][modificador-(/g de global, indica que tiene que hacerse a lo largo de todo el flujo)][Indicar cual es el flujo a utilizar (Archivo de texto)]
 SED no modifica el archivo, lo que hace es crear un nuevo flujo con la modificación
 Para eliminar la ultima linea podemos utilizar:
-2. `sed ‘$d’ nuevasPelis.csv` = [Comando][’$sub-comando’][archivo]
+    `sed ‘$d’ nuevasPelis.csv` = [Comando][’$sub-comando’][archivo]
 - awk: Trataminento de texto delimitado, este comando sirve para trabajar con archivos de textos delimitados por comas.
 Ejemplos:
 `awk -F ‘;’ ‘{ print $1}’ nuevasPelis.csv`
